@@ -2,10 +2,10 @@ decodeMorse = function (morseCode) {
     let newMorse = morseCode.split(' ');
     let words = [];
     newMorse.forEach(e => {
-        words.push(e ? MORSE_CODE[e] : " ");
+        words.push(e ? MORSE_CODE[e] : " ")
     });
-    return words.join("")
-};
+    return words.join("").trim().replace(/\s+/g,' ');
+}
 
 
 decodeMorse('.... . -.--   .--- ..- -.. .')
