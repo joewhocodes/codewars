@@ -1,4 +1,4 @@
-const toCsvText = arr => arr.map(e => e.join(",")).join("\n");
+const toCsvText = arr => arr.join("\n");
 
 
 console.log(toCsvText(
