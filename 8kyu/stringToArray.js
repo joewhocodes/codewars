@@ -1,1 +1,3 @@
-const stringToArray = str => str.split(" ");
+function toCsvText(array) {
+    // good luck
+ }
