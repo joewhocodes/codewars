@@ -1,6 +1,6 @@
 <div id="top"></div>
 
-[![Issues][issues-shield]][issues-url]
+<!-- [![Issues][issues-shield]][issues-url] -->
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -31,17 +31,17 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <!-- <li><a href="#built-with">Built With</a></li> -->
       </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+        <!-- <li><a href="#prerequisites">Prerequisites</a></li> -->
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <!-- <li><a href="#usage">Usage</a></li> -->
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -52,7 +52,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://www.codewars.com/)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://www.codewars.com/) -->
 
 
 </p>
@@ -163,7 +163,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Joe Ulyatt - [@joewhocodes](https://twitter.com/joewhocodes) - joewhocodes@gmail.com
 
-Project Link: [https://github.com/joewhocodes/moviegojoe](https://github.com/joewhocodes/codewars)
+Project Link: [https://github.com/joewhocodes/codewars](https://github.com/joewhocodes/codewars)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
