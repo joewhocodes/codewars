@@ -17,7 +17,7 @@
     A compliation of my completed Codewars challenges
   </p>
     <br />
-    <a href="https://github.com/joewhocodes/moviegojoe"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/joewhocodes/codewars"><strong>Explore the docs »</strong></a>
     <br />
   </p>
 </div>
