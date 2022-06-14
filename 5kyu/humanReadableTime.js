@@ -1,15 +1,50 @@
-function humanReadable (seconds) {
-    // let hours = (seconds / 3600) 
-    let minutes = (seconds / 60)
-    let hours = (minutes > 59 ? minutes / 60 : null)
-    minutes = hours.toString().slice(-2);
-    console.log(hours)
-    console.log(minutes)
-    // let min = (seconds / 60).toFixed(2);
-    let sec = min.slice(-2);
-    return (min.substring(0, 2) + (":") + sec)
+// Refactored code
 
-};
+const humanReadable = (seconds) => {
+    seconds > 359999 ? seconds = 359999 : null
+    const convertTime = (t) => (t - Math.floor(t)) * 60
+    const toClock = (time) => time < 10 ? (String(time).padStart(2, 0)) : time
 
+    const hours = seconds / 3600;
+    const minutes = convertTime(hours);
+    seconds = convertTime(minutes);
 
-console.log(humanReadable(124400))
+    return (
+        toClock(Math.floor(hours)) +
+        ':' +
+        toClock(Math.floor(minutes)) +
+        ':' +
+        toClock(seconds < 59 ? Math.round(seconds) : Math.floor(seconds))
+    );
+}
+
+console.log(humanReadable(3599));
+
+// Old Code
+
+function humanReadableOld(seconds) {
+    if (seconds > 359999) {
+        seconds = 359999;
+    };
+    const hours = seconds / 3600;
+    const minutes = (hours - Math.floor(hours)) * 60;
+    seconds = (minutes - Math.floor(minutes)) * 60;
+    const convertTime = (time) => {
+        console.log(time)
+        time = Math.floor(time);
+        if (time < 10) {
+            return String(time).padStart(2, 0);
+        } else {
+            return time;
+        }
+    };
+    console.log(seconds)
+    console.log(Math.ceil(seconds))
+    return (
+        convertTime(hours) +
+        ':' +
+        convertTime(minutes) +
+        ':' +
+        convertTime(seconds < 59 ? Math.round(seconds) : seconds)
+    );
+}
