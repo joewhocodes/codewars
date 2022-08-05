@@ -8,19 +8,6 @@
 
 // All letters will be lowercase and all inputs will be valid.
 
-// let games = [
-//     { id: 1, name: 'Star Wars: Imperial Assault', company: "fart", votes: 3},
-//     { id: 2, name: 'Game of Thrones: Second Edition', company: 'Fantassy Flight', votes: 4 },
-//     { id: 3, name: 'Merchans and Marauders', company: 'Z-Man Gaming', votes: 5 },
-//     { id: 4, name: 'Eclipse', company: 'Lautapelit', available: false, votes: 6 },
-//     { id: 5, name: 'Fure of Dracula', company: 'Fantasy Flight', available: true, votes: 2 }
-// ]
-// let maxGame = games.reduce((max, game) => max.votes > game.votes ? max : game);
-
-// console.log(maxGame)
-
-
-
 const high = x => {
     let scores = [];
     for (const word of x.split(' ')) {
