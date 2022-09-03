@@ -91,7 +91,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/joewhocodes/moviegojoe.git
+   git clone https://github.com/joewhocodes/codewars.git
    ```
 
 
@@ -125,7 +125,7 @@ Use the search bar to search for any Movie or TV show. Use the filters in the to
 - [ ] Feature 3
     - [ ] Nested Feature -->
 
-<!-- See the [open issues](https://github.com/joewhocodes/moviegojoe/issues) for a full list of proposed features (and known issues).
+<!-- See the [open issues](https://github.com/joewhocodes/codewars/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p> -->
 
@@ -172,16 +172,16 @@ Project Link: [https://github.com/joewhocodes/codewars](https://github.com/joewh
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/joewhocodes/moviegojoe.svg?style=for-the-badge
-[contributors-url]: https://github.com/joewhocodes/moviegojoe/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/joewhocodes/moviegojoe.svg?style=for-the-badge
-[forks-url]: https://github.com/joewhocodes/moviegojoe/network/members
-[stars-shield]: https://img.shields.io/github/stars/joewhocodes/moviegojoe.svg?style=for-the-badge
-[stars-url]: https://github.com/joewhocodes/moviegojoe/stargazers
-[issues-shield]: https://img.shields.io/github/issues/joewhocodes/moviegojoe.svg?style=for-the-badge
-[issues-url]: https://github.com/joewhocodes/moviegojoe/issues
+[contributors-shield]: https://img.shields.io/github/contributors/joewhocodes/codewars.svg?style=for-the-badge
+[contributors-url]: https://github.com/joewhocodes/codewars/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/joewhocodes/codewars.svg?style=for-the-badge
+[forks-url]: https://github.com/joewhocodes/codewars/network/members
+[stars-shield]: https://img.shields.io/github/stars/joewhocodes/codewars.svg?style=for-the-badge
+[stars-url]: https://github.com/joewhocodes/codewars/stargazers
+[issues-shield]: https://img.shields.io/github/issues/joewhocodes/codewars.svg?style=for-the-badge
+[issues-url]: https://github.com/joewhocodes/codewars/issues
 [license-shield]: https://img.shields.io/github/license/joewhocodes/moviegojoe.svg?style=for-the-badge
-[license-url]: https://github.com/joewhocodes/moviegojoe/blob/main/LICENSE.txt
+[license-url]: https://github.com/joewhocodes/codewars/blob/main/license.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/joewhocodes
 [product-screenshot]: /src/img/screenshot.png
