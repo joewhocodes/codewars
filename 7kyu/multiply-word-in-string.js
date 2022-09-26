@@ -11,6 +11,4 @@
 
 const modifyMultiply = (str,loc,num) => str.split(" ")[loc].concat("-").repeat(num).slice(0, -1);
 
-
-
 console.log(modifyMultiply("This is a string",3 ,5));
