@@ -8,4 +8,3 @@
 const spoonerize = words => words.split(' ').map((e, i, a) => i === 0 ? a[1].slice(0, 1) + e.slice(1) : a[0].slice(0, 1) + e.slice(1)).join(' ');
 
 console.log(spoonerize('not picking'))
-
