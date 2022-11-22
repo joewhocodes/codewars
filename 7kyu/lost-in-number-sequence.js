@@ -4,7 +4,7 @@
 //  single array of nums, always pos, no special chars
 // array an integer
 
-const findDeletedNumber = (arr, mixArr) => arr.length === mixArr.length ? 0 : arr.filter(e => !mixArr.includes(e))[0];
+const findDeletedNumber = (arr, mixArr) => arr.filter(e => !mixArr.includes(e))[0];
 
 
 
