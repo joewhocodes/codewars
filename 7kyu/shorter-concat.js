@@ -8,9 +8,6 @@
 // always 2 strings, can be empty, 
 // return str
 
-const shorter_reverse_longer = (a, b) => {
-    const sorted = (a.length == b.length) ? [b, a] : [...arguments].sort((a, b) => a.length - b.length);
-    return sorted[0] + sorted[1].split('').reverse().join('') + sorted[0];
-} 
+const shorter_reverse_longer = (a, b) => a.length <= b.length ? `${b}${a.split('').reverse().join('')}${b}` : `${a}${b.split('').reverse().join('')}${a}`;
 
 console.log(shorter_reverse_longer("first", "abcde"))
