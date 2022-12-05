@@ -1,0 +1,1 @@
+const greet = n => `Hello, ${n} how are you doing today?`;
