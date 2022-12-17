@@ -1,0 +1,1 @@
+const sayHello = n => 'Hello, ' + n;
