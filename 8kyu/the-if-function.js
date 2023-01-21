@@ -1,0 +1,1 @@
+const _if = (b, t, f) => b ? t() : f();
