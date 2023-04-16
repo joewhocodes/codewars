@@ -10,4 +10,6 @@ const divisibleBy = (n, d) => {
     return result;
 };
 
-console.log(divisibleBy([1,2,3,4,5,6], 2), [2,4,6])
+// const divisibleBy = (n, d) => n.filter(e => e % d == 0);
+
+console.log(divisibleBy([1,2,3,4,5,6], 2), [x2,4,6])
