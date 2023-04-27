@@ -1,0 +1,1 @@
+const hero = (b, d) => b === 0 ? false : b / d >= 2;
