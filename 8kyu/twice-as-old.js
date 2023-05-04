@@ -1,0 +1,1 @@
+const twiceAsOld = (d, s) => Math.abs(d - s * 2);
