@@ -1,0 +1,1 @@
+const opposite = number => number ? number * -1 : Math.abs(number);
