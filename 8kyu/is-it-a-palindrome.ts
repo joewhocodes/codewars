@@ -1,0 +1,1 @@
+export const isPalindrome = (s: string): boolean => s.toLowerCase().split('').reverse().join('') === s.toLowerCase();
