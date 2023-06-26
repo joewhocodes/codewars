@@ -1,0 +1,1 @@
+export const fakeBin = (nums: string) : string => nums.split('').map(num => Number(num) >= 5 ? num = '1' : num = '0').join('');
