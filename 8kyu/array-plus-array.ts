@@ -1,0 +1,1 @@
+export const arrayPlusArray = (arr1: number[], arr2: number[]) : number => [...arr1, ...arr2].flat().reduce((a, b) => a + b, 0);
