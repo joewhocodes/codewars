@@ -1,0 +1,1 @@
+export const findNeedle = (arr: any []) : string => `found the needle at position ${arr.indexOf('needle')}`;
