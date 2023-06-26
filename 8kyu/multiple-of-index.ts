@@ -1,0 +1,1 @@
+export const multipleOfIndex = (arr: number[]) : number[] => arr.filter((num, i) => num % i == 0);
