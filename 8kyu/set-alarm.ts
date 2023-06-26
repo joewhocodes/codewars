@@ -1,0 +1,1 @@
+export const setAlarm = (e: boolean, v: boolean) : boolean => e  && !v ? true : false; 
