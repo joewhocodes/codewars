@@ -1,0 +1,1 @@
+export const smash = (arr: string[]): string => arr.join(' ');
