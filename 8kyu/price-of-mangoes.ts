@@ -1,0 +1,1 @@
+export const mango = (q: number, p : number) : number => q < 3 ? q * p : Math.ceil(q - q / 3) * p;
